@@ -21,7 +21,7 @@ setup(
 		Extension("py2d.FOV", ["py2d/FOV.py"]),
 		Extension("py2d.FOVConverter", ["py2d/FOVConverter.py"]),
 		Extension("py2d.Navigation", ["py2d/Navigation.py"]),
-		Extension("py2d.SVG", ["py2d/SVG.py"]),
+		# Extension("py2d.SVG", ["py2d/SVG.py"]),  # Commented out due to Cython compilation issues with Python 3.12
 		Extension("py2d.Math", ["py2d/Math/__init__.py"]),
 		Extension("py2d.Math.Operations", ["py2d/Math/Operations.py"]),
 		Extension("py2d.Math.Polygon", ["py2d/Math/Polygon.py"]),
